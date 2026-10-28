@@ -81,9 +81,9 @@ export default function ImageClassifier() {
       <div className="section-header">
         <div>
           <div className="section-tag">Interactive Evaluation</div>
-          <h2 className="section-title">Manual Image Classifier</h2>
+          <h2 className="section-title">Manual Image Classifier: Orient Fish Horizontally</h2>
           <p className="section-subtitle">
-            Upload custom catch photos or validation specimens for real-time edge classification.
+            Supported species: California Corbina, Leopard Shark, Pacific Mackerel, Barred Sand Bass, Barred Surfperch, Bat Ray ,Garibaldi ,California Halibut ,Jacksmelt ,Lizardfish ,Shovelnose Guitarfish ,Spotfin Croaker ,Round Stingray, and Yellowfin Croaker.
           </p>
         </div>
       </div>

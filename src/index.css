@@ -1,0 +1,48 @@
+:root {
+  --bg-primary: #040914;
+  --bg-secondary: #081226;
+  --bg-card: rgba(13, 27, 56, 0.65);
+  --bg-card-hover: rgba(17, 34, 71, 0.8);
+  --border-subtle: rgba(30, 77, 140, 0.35);
+  --border-bright: rgba(0, 229, 255, 0.4);
+
+  --accent-cyan: #00e5ff;
+  --accent-blue: #0582ca;
+  --accent-deep: #006494;
+  
+  --text-main: #f0f6fc;
+  --text-muted: #8b9bb4;
+  --text-dim: #546884;
+
+  --status-success: #00e676;
+  --status-error: #ff5252;
+  --status-warning: #ffb300;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(5, 130, 202, 0.25), transparent),
+    radial-gradient(circle 600px at 85% 60%, rgba(0, 229, 255, 0.08), transparent);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
